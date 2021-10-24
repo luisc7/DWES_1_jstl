@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+	border-style: none;
+	border-collapse: collapse;
+}
+
+th {
+	color: white;
+	background-color: #8080c0;
+}
+
+nav {
+    min-height: 10%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;   
+}
+nav ul li {
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+ul li a,
+form input[type="submit"] {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;    
+    padding: 6px;
+    float: left;
+    transition: linear 0.3s;
+}
+
+ul li:hover,
+.boton a:hover,
+form input[type="submit"]:hover {
+	background-color: #8000ff;
+    font-weight: bold;    
+    transition: ease 0.2s;
+}
+
+.active {
+	background-color: #99FFFF;
+}
+
+.boton {
+	margin: 20px;
+}
+
+.boton a,
+form input[type="submit"] {
+	display: table-cell;
+  	vertical-align: middle;
+  	text-align: center;
+	height: 40px;
+	width: 150px;
+	background-color: #99FFFF;
+	margin: 20px;
+}
+
+a,
+form input[type="submit"] {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover,
+form input[type="submit"]:hover {
+	color: white;
+}
+
+
+/* tablas */
+
+
+.filled-col,
+.modif,
+.modif th,
+.modif td {
+	border: 3px solid #d8d8eb;
+	padding: 10px 15px;
+}
+
+.empty-col {
+	width: 20px;
+	background: none;
+}
+
+
+
+
+td a:hover {
+	transition: ease 0.2s;
+	color: white;
+}
+
+tr:nth-child(even) {
+	
+}
+
+tr:nth-child(odd) .filled-col {
+	background-color: #d8d8eb;
+}
+
+table #clear-col {
+	/*background: none;*/
+	width: 15px;
+	background-color: white;
+}
+
+
+.col5 a {
+	color: #6b6b6b;
+}
+
+.col6 a {
+	color: #ff7777;
+}
+
+.col7 a {
+	color: #6666ff;
+}
+
+.col5 a:hover {
+	/*background-color: black;*/
+	color: black;
+	transition: ease 0.2s;  
+}
+
+.col6 a:hover {
+	color: red;
+	/*background-color: orange; */
+    transition: ease 0.2s;
+}
+
+.col7 a:hover {
+	color: blue;
+	/*background-color: red; */
+    transition: ease 0.2s;
+}
+
+/* formulario */
+
+legend {
+	font-size: 1.3em;
+}
+
+.grid {
+	display:inline;
+}
+
+.grid input,
+.grid select {
+	display: block;
+	width: 300px;
+}
+
+label {
+	display: inline;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 200px 350px;
+	
+}
+
+form label {
+	margin-top: 5px;
+}
+
+form input,
+form select {
+	margin-bottom: 5px;
+}
+
