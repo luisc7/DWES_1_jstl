@@ -7,12 +7,12 @@ Una empresa se dedica a montar eventos. Cada evento es de un tipo distinto. Los 
 De aquí en adelante, podremos incorporar más tablas para completar la aplicación, pero, de momento, con estas tenemos bastantes.
 
 El modelo de datos es el siguiente: 
-![Modelo de datos del ejercicio](\src\main\webapp\img\ModeloDatos.png)
+![Modelo de datos del ejercicio](/src/main/webapp/img/ModeloDatos.png)
 
 ## Desarrollo
 
 La idea es que construyamos una aplicación con JEE, servlet y JSP, sin acceso a datos, y cuya página principal tenga esta imagen (index.jsp). 
-![Captura de los elementos activos en index.jsp](\src\main\webapp\img\c-158.jpg)
+![Captura de los elementos activos en index.jsp](/src/main/webapp/img/c-158.jpg)
 
 - Vamos a implementar el servlet **GestionEventos**. 
 - Las páginas JSP necesarias para las tareas definidas a continuación. 
@@ -31,6 +31,9 @@ De momento no nos preocupamos de quién entra en la aplicación. Vamos a suponer
 ## Criterios de calificación
 
 15% hacer los comentarios de cada método.
+
 30% calidad de los elementos y componentes del programa.
+
 15% que al montarla el tutor no tenga problemas en su equipo.
+
 40% que la aplicación funcione bien.
